@@ -15,8 +15,10 @@ Assumptions
 	Vacuum conditions are assumed
 
 Ion thrusters accelerate charged particles using electric fields to produce thrust for spacecraft propulsion, positively charged ions are repelled from a positively charged grid to a negatively charged accelerator grid generating thrust as they exit out of the exhaust at a high velocity.
+
 The motion of an ion accelerated by an electric potential difference can be modeled using several physical equations and simulated using software such as Python. When an ion is accelerated through a voltage difference V, the electrical potential energy supplied by the field is converted into kinetic energy. This relationship is described by:
 qV=1/2 mv^2
+
 Where:
 	V= electric potential difference (volts) 
 	q= charge of the ion (coulombs) 
@@ -29,6 +31,7 @@ For this project we will be modeling using a singly ionized Xenon, Argon, and Kr
 Xenon (m=2.18e-25 kg)
 Argon (m=6.62e-26 kg)
 Krypton (m=1.39e-25 kg)
+
 When ionized atoms typically lose an electron and become slightly positively charged. The lost electron has a mass of about 9.11e-31 kg, which is negligible compared to the mass of the atoms themselves, so for calculations we will treat the mass of the ion as equal to the mass of the atom.
 
 The user is prompted to select what kind of propellant they will be using within the interface, and are then asked to input the electrical difference between the positive and negative grids
